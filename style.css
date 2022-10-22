@@ -664,5 +664,8 @@ section{
     .heading{
        font-size: 3rem;
     }
+    .about .row .image img{
+       margin-left: 65px;
+    }
  
  }
