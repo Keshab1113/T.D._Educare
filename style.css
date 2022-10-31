@@ -233,6 +233,11 @@ section{
    margin-bottom: 4rem;
    user-select: none;
 }
+.courses .slide:hover{
+   background-color: rgba(115, 116, 136, 0.807);
+   border-radius: 0rem; 
+   transition: 0.5s;
+}
 
 .courses .slide img{
    height: 25rem;
@@ -267,6 +272,11 @@ section{
    padding:2rem;
    margin-bottom: 4rem;
    user-select: none;
+}
+.subject .slide:hover{
+   background-color: rgba(115, 116, 136, 0.807);
+   border-radius: 0rem; 
+   transition: 0.5s;
 }
 
 .subject .slide img{
