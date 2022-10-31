@@ -88,6 +88,8 @@ section{
    top:0; left:0; right:0;
    z-index: 1000;
    background-color: var(--light-bg);
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
 }
 
 .header .flex{
@@ -110,6 +112,9 @@ section{
 
 .header .flex .navbar a:hover{
    color:var(--green);
+   background-color: var(--black);
+   padding :4px;
+   border-radius:15px;
 }
 
 #menu-btn{
