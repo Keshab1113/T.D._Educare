@@ -105,15 +105,15 @@ section{
 }
 
 .header .flex .navbar a{
-   margin-left: 2rem;
+   margin-left: 1.5rem;
+   padding: 1rem;
    color:var(--light-white);
    font-size: 2rem;
 }
 
 .header .flex .navbar a:hover{
-   color:var(--green);
-   background-color: var(--black);
-   padding :4px;
+   background-color: rgba(154, 139, 139, 0.857);
+   color:rgb(233, 220, 220);
    border-radius:15px;
 }
 
