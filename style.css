@@ -114,7 +114,7 @@ section{
 .header .flex .navbar a:hover{
    background-color: rgba(154, 139, 139, 0.857);
    color:rgb(233, 220, 220);
-   border-radius:15px;
+   border-radius:35px;
 }
 
 #menu-btn{
