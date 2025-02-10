@@ -711,6 +711,13 @@ section{
      }
  
  }
+ @media (max-width:752px){
+  .image{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+ }
  
  @media (max-width:450px){
  
@@ -725,8 +732,13 @@ section{
     .heading{
        font-size: 3rem;
     }
-    .about .row .image img{
+    .about .row {
        margin-left: 65px;
+    }
+    .image{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
  
  }
