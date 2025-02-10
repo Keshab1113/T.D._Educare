@@ -15,6 +15,10 @@ var swiper = new Swiper(".course-slider", {
    spaceBetween: 20,
    grabCursor:true,
    loop:true,
+   autoplay: {
+      delay: 1000, // Slides every 3 seconds
+      disableOnInteraction: false,
+   },
    pagination: {
      el: ".swiper-pagination",
      clickable: true,
@@ -34,6 +38,10 @@ var swiper = new Swiper(".course-slider", {
 
 var swiper = new Swiper(".teachers-slider", {
    spaceBetween: 20,
+   autoplay: {
+      delay: 1000, // Slides every 3 seconds
+      disableOnInteraction: false,
+   },
    grabCursor:true,
    loop:true,
    pagination: {
@@ -57,6 +65,10 @@ var swiper = new Swiper(".reviews-slider", {
    spaceBetween: 20,
    grabCursor:true,
    loop:true,
+   autoplay: {
+      delay: 1000, // Slides every 3 seconds
+      disableOnInteraction: false,
+   },
    pagination: {
      el: ".swiper-pagination",
      clickable: true,
@@ -90,3 +102,25 @@ window.addEventListener("load",()=>{
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+  const sections = document.querySelectorAll('section');
+
+  const options = {
+    threshold: 0.1
+  };
+
+  const revealOnScroll = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, options);
+
+  sections.forEach(section => {
+    section.classList.add('hidden');
+    revealOnScroll.observe(section);
+  });
+});
