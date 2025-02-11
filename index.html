@@ -8,6 +8,8 @@
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
    <link rel="stylesheet" href="style.css">
+   <!-- Swiper CSS -->
+
 </head>
 <body>
 <header class="header">
@@ -15,11 +17,13 @@
       <a href="#home" class="logo">T.D. Educare</a>
       <nav class="navbar">
          <a href="#home">home</a>
+         <a href="#about">about</a>
          <a href="#courses">courses</a>
          <a href="#subject">subject</a>
          <a href="#teachers">teachers</a>
          <a href="#reviews">place</a>
          <a href="#contact">contact</a>
+         <a href="#testimonial">testimonial</a>
       </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
    </section>
@@ -69,17 +73,37 @@
    </div>
 </section>
 <section class="about" id="about">
-   <div class="row">
-      <div class="image">
-         <img src="TD Educare's Poster.jpg" alt="">
+   <div class="content">
+      <h1 class="heading">About <span>Us</span></h1>
+      <p>
+         Welcome to <strong>T.D. Educare</strong>, where learning meets excellence! 
+         We are committed to providing top-notch education with expert faculty, 
+         innovative teaching methods, and a student-first approach.
+      </p>
+      <p>
+         Our mission is to empower students with the right knowledge, skills, and 
+         confidence to excel in their academic and professional journeys. 
+         We believe in interactive learning, mentorship, and holistic development.
+      </p>
+      <div class="highlights">
+         <div class="box">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>Expert Faculty</h3>
+         </div>
+         <div class="box">
+            <i class="fas fa-book-open"></i>
+            <h3>Quality Learning</h3>
+         </div>
+         <div class="box">
+            <i class="fas fa-users"></i>
+            <h3>Community Support</h3>
+         </div>
       </div>
-      <div class="content">
-         <h3>Why choose us?</h3>
-         <p>Quality Education, Unique Curriculum, Multicultural Environment, and Abundant Opportunities.</p>
-         <a href="#contact" class="btn">contact us</a>
-      </div>
+      <a href="#contact" class="btn">Contact Us</a>
    </div>
+
 </section>
+
 <section class="courses" id="courses">
    <h1 class="heading">our <span>courses</span></h1>
    <div class="swiper course-slider">
@@ -202,6 +226,48 @@
       </div>
    </section>
 </section>
+<section class="testimonial" id="testimonial">
+   <h1 class="heading">Student <span>Testimonials</span></h1>
+   <div class="swiper testimonial-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide">
+            <p>"T.D. Educare has transformed my learning experience. The teachers are highly supportive, and the environment is amazing!"</p>
+            <h3>- Riya Sharma</h3>
+         </div>
+         <div class="swiper-slide slide">
+            <p>"The courses are well-structured, and the mentors guide us at every step. Highly recommend!"</p>
+            <h3>- Arjun Verma</h3>
+         </div>
+         <div class="swiper-slide slide">
+            <p>"A great place for education. The spoken English classes really helped boost my confidence!"</p>
+            <h3>- Priya Das</h3>
+         </div>
+         <div class="swiper-slide slide">
+            <p>"The best place to learn with excellent faculty and interactive learning methods!"</p>
+            <h3>- Sumit Roy</h3>
+         </div>
+            <div class="swiper-slide slide">
+            <p>"The interactive sessions made learning fun and easy. I never felt bored in class!"</p>
+            <h3>- Neha Agarwal</h3>
+         </div>
+         <div class="swiper-slide slide">
+            <p>"The faculty members are very knowledgeable, and they clear every doubt with patience."</p>
+            <h3>- Rohit Mishra</h3>
+         </div>
+         <div class="swiper-slide slide">
+            <p>"I loved the one-on-one mentorship. It really helped me improve my weak areas!"</p>
+            <h3>- Ananya Sen</h3>
+         </div>
+         <div class="swiper-slide slide">
+            <p>"I have gained so much confidence in public speaking thanks to their soft skills training."</p>
+            <h3>- Karan Mehta</h3>
+         </div>
+      </div>
+      <div class="swiper-pagination"></div>
+   </div>
+</section>
+
+
 <section class="contact" id="contact">
    <h1 class="heading"><span>contact</span> us</h1>
    <h3 class="contact-title padd-15">Have You Any Question ?</h3>
@@ -315,5 +381,6 @@
 </footer>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="index.js"></script>
+
 </body>
 </html>
