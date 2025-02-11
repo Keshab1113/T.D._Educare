@@ -742,3 +742,71 @@ section{
     }
  
  }
+
+@keyframes fadeIn {
+   from {
+     opacity: 0;
+     transform: translateY(20px);
+   }
+   to {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+ 
+ section {
+   animation: fadeIn 1.2s ease-in-out;
+ }
+ 
+ .heading {
+   position: relative;
+   overflow: hidden;
+   display: inline-block;
+   animation: slideIn 1s ease-in-out forwards;
+ }
+ 
+ @keyframes slideIn {
+   from {
+     transform: translateX(-100%);
+     opacity: 0;
+   }
+   to {
+     transform: translateX(0);
+     opacity: 1;
+   }
+ }
+ 
+ .btn {
+   transition: all 0.3s ease-in-out;
+   background: #007bff;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-transform: uppercase;
+ }
+ 
+ .btn:hover {
+   background: #0056b3;
+   transform: scale(1.1);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .swiper-slide {
+   transition: transform 0.5s ease, box-shadow 0.5s ease;
+ }
+ 
+ .swiper-slide:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .hidden {
+   opacity: 0;
+   transform: translateY(20px);
+   transition: opacity 1s ease, transform 1s ease;
+ }
+ 
+ .visible {
+   opacity: 1;
+   transform: translateY(0);
+ }
