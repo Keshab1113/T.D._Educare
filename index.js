@@ -5,6 +5,19 @@ menuBtn.onclick = () =>{
    menuBtn.classList.toggle('fa-times');
    navbar.classList.toggle('active');
 }
+document.querySelectorAll(".faq-question").forEach(button => {
+  button.addEventListener("click", () => {
+     const faqItem = button.parentElement;
+     faqItem.classList.toggle("active");
+
+     // Close other open FAQs
+     document.querySelectorAll(".faq-item").forEach(item => {
+        if (item !== faqItem) {
+           item.classList.remove("active");
+        }
+     });
+  });
+});
 
 window.onscroll = () =>{
    menuBtn.classList.remove('fa-times');
