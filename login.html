@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <div class="auth-wrapper">
+        <h2 class="auth-title">Login</h2>
+        <input type="email" id="login-email" placeholder="Enter Email" class="auth-input">
+        <input type="password" id="login-password" placeholder="Enter Password" class="auth-input">
+        <button onclick="login()" class="auth-button">Login</button>
+        <p class="auth-text">Don't have an account? <a href="signup.html">Sign Up</a></p>
+        <p id="login-message" class="auth-message"></p>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
