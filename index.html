@@ -483,41 +483,45 @@
     <section class="admisson" id="admisson">
       <h1 class="heading"><span>Admission</span></h1>
       <div class="row">
-        <form action="" method="post">
+        <form id="admissionForm" action="" method="post">
           <span>Your Full name</span>
           <input
+            id="fullName"
             type="text"
             required
             placeholder="Enter your full name"
             maxlength="50"
-            name="name"
+            name="fullName"
             class="box"
           />
           <span>Father's name</span>
           <input
+            id="fatherName"
             type="text"
             required
             placeholder="Enter father's name"
             maxlength="50"
-            name="name"
+            name="fatherName"
             class="box"
           />
           <span>Mother's name</span>
           <input
+            id="motherName"
             type="text"
             required
             placeholder="Enter mother's name"
             maxlength="50"
-            name="name"
+            name="motherName"
             class="box"
           />
           <span>Your guardian's name</span>
           <input
+            id="guardiansName"
             type="text"
             required
             placeholder="Enter guardian's name"
             maxlength="50"
-            name="name"
+            name="guardiansName"
             class="box"
           />
           <span>Your email</span>
@@ -531,28 +535,30 @@
           />
           <span>Your mobile number</span>
           <input
+            id="mobNum"
             type="number"
             required
             placeholder="Enter your mobile number"
             max="9999999999"
             min="0"
-            name="number"
+            name="mobNum"
             class="box"
             onkeypress="if(this.value.length == 10) return false;"
           />
           <span>Your guardian's mobile number</span>
           <input
+            id="guardianMobile"
             type="number"
             required
             placeholder="Enter guardian's mobile number"
             max="9999999999"
             min="0"
-            name="number"
+            name="guardianMobile"
             class="box"
             onkeypress="if(this.value.length == 10) return false;"
           />
           <span>select course</span>
-          <select name="couses" class="box" required>
+          <select id="courses" name="courses" class="box" required>
             <option value="" disabled selected>select the course --</option>
             <option value="web developement">English</option>
             <option value="science and biology">Spoken English</option>
@@ -567,40 +573,44 @@
           </div>
           <span>Your age</span>
           <input
+            id="age"
             type="number"
             required
             placeholder="Enter your age"
             max="99"
             min="0"
-            name="number"
+            name="age"
             class="box"
             onkeypress="if(this.value.length == 2) return false;"
           />
           <span>Present School / College</span>
           <input
+            id="school"
             type="text"
             required
             placeholder="School/College name"
             maxlength="50"
-            name="name"
+            name="school"
             class="box"
           />
           <span>Your Class with Stream</span>
           <input
+            id="classWithStream"
             type="text"
             required
             placeholder="Enter Class With Stream"
             maxlength="50"
-            name="name"
+            name="classWithStream"
             class="box"
           />
           <span>Your address</span>
           <input
+            id="address"
             type="text"
             required
             placeholder="Enter your address"
             maxlength="50"
-            name="name"
+            name="address"
             class="box"
           />
           <p>N.B.:- Special offer for SC & ST students.</p>
@@ -667,6 +677,9 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="admission.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
     <script src="config.js"></script>
