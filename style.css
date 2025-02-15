@@ -348,7 +348,7 @@ section{
 }
 
 .header .flex .navbar a{
-   margin-left: 1.5rem;
+   margin-left: 1rem;
    padding: 1rem;
    color:var(--light-white);
    font-size: 2rem;

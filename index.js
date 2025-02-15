@@ -68,29 +68,23 @@ var swiper = new Swiper(".course-slider", {
    },
 });
 
-var swiper = new Swiper(".teachers-slider", {
-   spaceBetween: 20,
-   autoplay: {
-      delay: 1000, // Slides every 3 seconds
-      disableOnInteraction: false,
-   },
-   grabCursor:true,
-   loop:true,
-   pagination: {
+var teachersSwiper = new Swiper(".teachers-slider", {
+  spaceBetween: 20,
+  autoplay: {
+     delay: 1000,
+     disableOnInteraction: false,
+  },
+  grabCursor: true,
+  loop: true,
+  pagination: {
      el: ".swiper-pagination",
      clickable: true,
-   },
-   breakpoints: {
-      540: {
-        slidesPerView: 1,
-      },
-      768: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-   },
+  },
+  breakpoints: {
+     540: { slidesPerView: 1 },
+     768: { slidesPerView: 2 },
+     1024: { slidesPerView: 3 },
+  },
 });
 
 var swiper = new Swiper(".reviews-slider", {
@@ -117,6 +111,17 @@ var swiper = new Swiper(".reviews-slider", {
       },
    },
 });
+
+// Function to pause autoplay on hover
+function addHoverPause(swiperInstance, sliderClass) {
+  document.querySelectorAll(sliderClass + " .swiper-slide").forEach(slide => {
+     slide.addEventListener("mouseenter", () => swiperInstance.autoplay.stop());
+     slide.addEventListener("mouseleave", () => swiperInstance.autoplay.start());
+  });
+}
+
+addHoverPause(teachersSwiper, ".teachers-slider");
+
 /* ================ light and dark mood ============*/ 
 const dayNight =document.querySelector(".day-night");
 
