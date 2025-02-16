@@ -401,9 +401,9 @@ section{
    margin-bottom: 25px;
    line-height: 1.5;
 }
-.buttons {
+.content .buttons {
    display: flex;
-   gap: 15px;
+   gap: 10px;
 }
 .btn {
    padding: 12px 24px;
