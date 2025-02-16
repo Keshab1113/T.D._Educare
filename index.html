@@ -9,44 +9,49 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
-
-</head>
-<body>
-<header class="header">
-   <section class="flex">
-      <a href="#home" class="logo">T.D. Educare</a>
-      <nav class="navbar">
-         <a href="#home">home</a>
-         <a href="#about">about</a>
-         <a href="#courses">courses</a>
-         <a href="#subject">subject</a>
-         <a href="#teachers">teachers</a>
-         <a href="#reviews">place</a>
-         <a href="#contact">contact</a>
-         <a href="#faq">faq</a>
-         <a href="#testimonial">testimonial</a>
-      </nav>
-      <div id="menu-btn" class="fas fa-bars"></div>
-   </section>
-</header>
-<section id="home" class="hero">
-   <div class="overlay"></div>
-   <div class="content">
-       <h1>Learn Without Limits</h1>
-       <p>Transform your future with our cutting-edge online learning platform. Access world-class education from anywhere, anytime.</p>
-       <div class="buttons">
-           <a href="#admisson" class="btn primary">Admission</a>
-           <a href="#contact" class="btn secondary">Contact Us</a>
-       </div>
-   </div>
-</section>
-<section class="count">
-   <div class="box-container">
-      <div class="box">
-         <i class="fas fa-graduation-cap"></i>
-         <div class="content">
-
-
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="#home" class="logo">T.D. Educare</a>
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#courses">courses</a>
+          <a href="#subject">subject</a>
+          <a href="#teachers">teachers</a>
+          <a href="#reviews">place</a>
+          <a href="#contact">contact</a>
+          <a href="#faq">faq</a>
+          <a href="#testimonial">testimonial</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+    </header>
+    <section id="home" class="hero">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Learn Without Limits</h1>
+        <p>
+          Transform your future with our cutting-edge online learning platform.
+          Access world-class education from anywhere, anytime.
+        </p>
+        <div class="buttons">
+          <a href="#admisson" class="btn primary">Admission</a>
+          <a href="#contact" class="btn secondary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="count">
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="content">
             <h3>3</h3>
             <p>courses</p>
           </div>
@@ -343,12 +348,11 @@
         <div class="image">
           <img src="book-img.svg" alt="" />
         </div>
-        <form id="contactForm" action="" method="post">
+        <form id="contactForm">
           <span>Your name</span>
           <input
             name="username"
             type="text"
-            required
             placeholder="Enter your full name"
             maxlength="50"
             class="box"
@@ -356,7 +360,6 @@
           <span>Your email</span>
           <input
             type="email"
-            required
             placeholder="Enter your email"
             maxlength="50"
             name="email"
@@ -366,7 +369,6 @@
           <input
             name="mobileNumber"
             type="number"
-            required
             placeholder="Enter your mobile number"
             max="9999999999"
             min="0"
@@ -374,7 +376,7 @@
             onkeypress="if(this.value.length == 10) return false;"
           />
           <span>select course</span>
-          <select name="courses" class="box" required>
+          <select name="courses" class="box">
             <option value="" disabled selected>select the course --</option>
             <option value="web developement">English</option>
             <option value="science and biology">Spoken English</option>
@@ -667,16 +669,12 @@
 
       <div class="copyright">© Made by Keshab Das. All rights reserved.</div>
     </footer>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
 
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="admission.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
-    <script src="config.js"></script>
-    <script src="contact.js"></script>
+
+    <script type="module" src="contact.js"></script>
   </body>
 </html>
