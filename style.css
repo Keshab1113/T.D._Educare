@@ -380,6 +380,10 @@ section{
    text-align: center;
 }
 
+.home .row .content a{
+   margin-right: 1rem;
+}
+
 .home .row .image{
    flex:1 1 40rem;
 }
