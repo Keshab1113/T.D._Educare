@@ -1,5 +1,6 @@
+import { config } from "./config.js";
 (() => {
-  emailjs.init(EMAILJS_USER_ID);
+  emailjs.init(config.EMAILJS_USER_ID);
 })();
 
 const form = document.getElementById("contactForm");
@@ -25,17 +26,19 @@ form.addEventListener("submit", function (event) {
 
   emailjs
     .send(
-      EMAILJS_SERVICE_ID,
-      EMAILJS_TEMPLATE_ID,
+      config.EMAILJS_SERVICE_ID,
+      config.EMAILJS_TEMPLATE_ID,
       templateParams,
-      EMAILJS_USER_ID
+      config.EMAILJS_USER_ID
     )
     .then(
       (response) => {
         alert("Message Sent");
         form.reset();
+        console.log(response);
       },
       (error) => {
+        console.log(error);
         alert("Error sending message. Please try again.");
       }
     );

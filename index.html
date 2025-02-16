@@ -15,6 +15,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
     <!-- Swiper CSS -->
   </head>
   <body>
@@ -349,7 +353,7 @@
         <div class="image">
           <img src="./public/book-img.svg" alt="" />
         </div>
-        <form id="contactForm" action="" method="post">
+        <form id="contactForm">
           <span>Your name</span>
           <input
             name="username"
@@ -362,9 +366,9 @@
           <span>Your email</span>
           <input
             type="email"
-            required
             placeholder="Enter your email"
             maxlength="50"
+            required
             name="email"
             class="box"
           />
@@ -380,7 +384,7 @@
             onkeypress="if(this.value.length == 10) return false;"
           />
           <span>select course</span>
-          <select name="courses" class="box" required>
+          <select name="courses" required class="box">
             <option value="" disabled selected>select the course --</option>
             <option value="web developement">English</option>
             <option value="science and biology">Spoken English</option>
@@ -673,16 +677,12 @@
 
       <div class="copyright">© Made by Keshab Das. All rights reserved.</div>
     </footer>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
 
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="admission.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
-    <script src="config.js"></script>
-    <script src="contact.js"></script>
+
+    <script type="module" src="contact.js"></script>
   </body>
 </html>
