@@ -353,6 +353,7 @@
           <input
             name="username"
             type="text"
+            required
             placeholder="Enter your full name"
             maxlength="50"
             class="box"
@@ -362,6 +363,7 @@
             type="email"
             placeholder="Enter your email"
             maxlength="50"
+            required
             name="email"
             class="box"
           />
@@ -369,6 +371,7 @@
           <input
             name="mobileNumber"
             type="number"
+            required
             placeholder="Enter your mobile number"
             max="9999999999"
             min="0"
@@ -376,7 +379,7 @@
             onkeypress="if(this.value.length == 10) return false;"
           />
           <span>select course</span>
-          <select name="courses" class="box">
+          <select name="courses" required class="box">
             <option value="" disabled selected>select the course --</option>
             <option value="web developement">English</option>
             <option value="science and biology">Spoken English</option>
