@@ -399,6 +399,10 @@ section{
    color:var(--green);
 }
 
+.home .row .content .btn{
+   margin-right: 1rem;
+}
+
 .count .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
