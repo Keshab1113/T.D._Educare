@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+#content{
+   display: none;
+}
+#loader{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 728px;
+}
+#loader img{
+   height: 6rem;
+}
 .faq {
    padding: 50px 10%;
    background: #f9f9f9;

@@ -23,6 +23,10 @@
   </head>
   <body>
     <!-- scroll to top button -->
+     <div id="loader">
+      <img src="./public/infinite-spinner.svg" alt="">
+     </div>
+     <div id="content">
     <button id="scrollToTopBtn">⬆</button>
 
     <header class="header">
@@ -680,7 +684,7 @@
 
       <div class="copyright">© Made by Keshab Das. All rights reserved.</div>
     </footer>
-
+  </div>
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="admission.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
@@ -702,6 +706,12 @@
     scrollToTopBtn.addEventListener("click", function () {
     window.scrollTo({ top: 0, behavior: "smooth" });
     });
+    </script>
+    <script>
+      setTimeout(()=>{
+        document.getElementById('loader').style.display='none';
+        document.getElementById('content').style.display='block';
+      },2000)
     </script>
   </body>
 </html>
