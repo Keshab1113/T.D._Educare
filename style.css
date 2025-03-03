@@ -1239,3 +1239,37 @@ section {
    box-shadow: 0 0 20px rgba(0, 123, 255, 1), 0 0 30px rgba(0, 123, 255, 0.8);
    transform: scale(1.1);
 }
+
+.display-none {
+   display: none;
+   opacity: 0;
+   transform: translateY(20px);
+   transition: opacity 1s ease, transform 1s ease;
+}
+
+.mobileNavbar {
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   a {
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: var(--light-white);
+   }
+}
+
+@media (min-width: 768px) {
+   .mobileItem {
+      display: none;
+   }
+}
+
+/* For tablet */
+@media (min-width: 1024px) {
+   .tabletItem {
+      display: none;
+   }
+}
