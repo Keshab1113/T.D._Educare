@@ -1126,6 +1126,33 @@ section {
 
 }
 
+.swiper-img-container {
+   position: relative;
+   overflow: hidden;
+}
+
+.swiper-img-container img {
+   width: 100%;
+   transition: transform 0.3s ease-in-out;
+}
+
+/* Zoom-in effect on hover */
+.swiper-img-container:hover .course-img {
+   transform: scale(1.029);
+}
+
+.swiper-img-container:hover .sub-img {
+   transform: scale(1.069);
+}
+
+.swiper-img-container:hover .expert-img {
+   transform: scale(1.129);
+}
+
+.swiper-img-container:hover .reviews-img {
+   transform: scale(1.129);
+}
+
 @media (max-width:768px) {
 
    #menu-btn {
@@ -1360,4 +1387,5 @@ section {
 .orange-theme {
    background-color: #ffe6cc;
    color: #cc6600;
+
 }
