@@ -2,7 +2,29 @@
 
 An animated, responsive educational website designed to showcase courses, subjects, expert tutors, and admission/contact forms. This project provides an engaging and interactive user experience, making learning more accessible and enjoyable.
 
----
+<table align="center">
+    <thead align="center">
+        <tr border: 2px;>
+            <td><b>🌟 Stars</b></td>
+            <td><b>🍴 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+        </tr>
+     </thead>
+    <tbody>
+         <tr>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/Keshab1113/T.D._Educare?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/Keshab1113/T.D._Educare?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/Keshab1113/T.D._Educare?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Keshab1113/T.D._Educare?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Keshab1113/T.D._Educare?style=flat&color=green&logo=github"/></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## 🌟 Features
 
@@ -13,7 +35,8 @@ An animated, responsive educational website designed to showcase courses, subjec
 ✅ **Dark Mode** – Toggle between light and dark themes for a personalized experience\
 ✅ **Modern UI** – Font Awesome icons integrated for enhanced visuals
 
----
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## 🚀 Technologies Used
 
@@ -23,7 +46,8 @@ An animated, responsive educational website designed to showcase courses, subjec
 - **Swiper.js** – Implementing smooth and engaging sliders
 - **Font Awesome** – Enriching visuals with an extensive icon library
 
----
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## ⚙️ Setup Instructions
 
@@ -74,31 +98,41 @@ An animated, responsive educational website designed to showcase courses, subjec
    - Feedback and suggestions for further improvements may be provided.
    - Your contribution will be reviewed and merged if it meets the project’s requirements.
 
----
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## 📂 Project Structure
 
 ```
-├── index.html        # Main HTML file
-├── style.css         # Stylesheet
-├── index.js         # JavaScript functionality
-├── images/          # Image assets
-└── README.md        # Project documentation
+├── .github/workflows/   # GitHub Actions workflows
+├── public/              # Public assets and static files
+├── README.md            # Project documentation
+├── admission.js         # Admission-related functionalities
+├── auth.css             # Styles for authentication pages
+├── auth.js              # Authentication logic
+├── config.js            # Configuration file (excluding secrets)
+├── contact.js           # Contact form functionality
+├── copyrightYear.js     # Handles dynamic copyright year
+├── index.html           # Main HTML file
+├── index.js             # JavaScript functionality
+├── login.html           # Login page
+├── signup.html          # Signup page
+├── style.css            # Main stylesheet
 ```
 
----
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## 🎓 About T.D. Educare
 
 T.D. Educare is dedicated to providing quality education through a unique curriculum, a multicultural environment, and abundant learning opportunities. This website reflects the institution's commitment to student growth and development.
 
----
-
 ## 👤 Author
 
 **Mr. Keshab Das** – Web Developer (2025)
 
----
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## ✨ Special Notes
 
