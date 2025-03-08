@@ -565,7 +565,7 @@ section {
    margin-top: 1.5rem;
    font-size: 2rem;
    text-align: center;
-   color: var(--white);
+   color: black;
 }
 
 .teachers .slide .share {
@@ -1360,7 +1360,7 @@ section {
 
 
 /* Color picker styling */
-.color-btn{
+.color-btn {
    padding: 5px;
    margin-left: 20px;
    border-radius: 8px;
