@@ -1,72 +1,143 @@
-T.D. Educare Website
+# 🎓 T.D. Educare Website
 
-An animated, responsive website designed for educational purposes. This project showcases various courses, subjects, expert tutors, and admission/contact forms, providing an engaging and interactive user experience.
+An animated, responsive educational website designed to showcase courses, subjects, expert tutors, and admission/contact forms. This project provides an engaging and interactive user experience, making learning more accessible and enjoyable.
 
-🌟 Features
+<table align="center">
+    <thead align="center">
+        <tr border: 2px;>
+            <td><b>🌟 Stars</b></td>
+            <td><b>🍴 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+        </tr>
+     </thead>
+    <tbody>
+         <tr>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/Keshab1113/T.D._Educare?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/Keshab1113/T.D._Educare?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/Keshab1113/T.D._Educare?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Keshab1113/T.D._Educare?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Keshab1113/T.D._Educare?style=flat&color=green&logo=github"/></td>
+        </tr>
+    </tbody>
+</table>
 
-Responsive Design: Mobile-friendly layout for all devices
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-Interactive Sliders: Swiper.js for courses, subjects, and tutors
+## 🌟 Features
 
-Forms: Easy-to-use Contact and Admission forms
+✅ **Responsive Design** – Mobile-friendly layout adaptable to all devices\
+✅ **Interactive Sliders** – Implemented using Swiper.js for seamless browsing of courses, subjects, and tutors\
+✅ **User-Friendly Forms** – Easy-to-use contact and admission forms for quick inquiries\
+✅ **Smooth Navigation** – Seamless scrolling and navigation for better user experience\
+✅ **Dark Mode** – Toggle between light and dark themes for a personalized experience\
+✅ **Modern UI** – Font Awesome icons integrated for enhanced visuals
 
-Smooth Navigation: Seamless scrolling experience
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-Dark Mode: Toggle feature for light/dark themes
+## 🚀 Technologies Used
 
-Modern UI: Font Awesome icons integration
+- **HTML5** – Structuring web content efficiently
+- **CSS3** – Styling with animations and responsiveness
+- **JavaScript** – Adding interactivity for a dynamic experience
+- **Swiper.js** – Implementing smooth and engaging sliders
+- **Font Awesome** – Enriching visuals with an extensive icon library
 
-🚀 Technologies Used
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-HTML5: Structuring the web content
+## ⚙️ Setup Instructions
 
-CSS3: Styling with animations and responsiveness
+1️⃣ **Fork the Repository 🍴:**
+   - Star the repository and then fork the repository by clicking the **"Fork"** button in the upper right corner of this page.
 
-JavaScript: Adding interactivity
+2️⃣ **Clone Your Forked Repository 📥:**
 
-Swiper.js: Implementing smooth sliders
+```sh
+ git clone https://github.com/Keshab1113/T.D._Educare.git
+```
 
-Font Awesome: Icon library for enhanced visuals
+3️⃣ **Navigate to the Source Directory 🗂️:**
 
-⚙️ Setup Instructions
+```sh
+ cd td-educare-website
+```
 
-Clone the repository:
+4️⃣ **Create a New Branch 🌿:**
 
-git clone <repository-url>
+```sh
+ git checkout -b your-branch-name
+```
 
-Navigate to the project folder:
+5️⃣ **Make Your Changes 🛠️:**
+   - Implement features or fixes.
+   - Ensure that your code adheres to project standards and best practices.
 
-cd td-educare-website
+6️⃣ **Commit Your Changes 💬:**
 
-Open the project in VS Code:
+```sh
+ git add .
+ git commit -m "Describe your changes"
+```
 
-code .
+7️⃣ **Push Your Changes ⬆️:**
 
-Run the project:Open index.html in your browser by right-clicking and selecting "Open with Live Server" (if using the Live Server extension) or:
+```sh
+ git push origin your-branch-name
+```
 
-open index.html  # For macOS
-start index.html # For Windows
+8️⃣ **Open a Pull Request 📩:**
+   - Submit a pull request to the main branch of this repository.
+   - Provide a detailed description of your changes and any relevant information.
 
-📂 Project Structure
+9️⃣ **Review Process 🔍:**
+   - Once your pull request is submitted, it will be reviewed by the project maintainers.
+   - Feedback and suggestions for further improvements may be provided.
+   - Your contribution will be reviewed and merged if it meets the project’s requirements.
 
-├── index.html
-├── style.css
-├── index.js
-├── images/
-└── README.md
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-🎓 About T.D. Educare
+## 📂 Project Structure
 
-T.D. Educare provides quality education with a unique curriculum, multicultural environment, and abundant learning opportunities. This website aims to reflect the institution's commitment to student growth and development.
+```
+├── .github/workflows/   # GitHub Actions workflows
+├── public/              # Public assets and static files
+├── README.md            # Project documentation
+├── admission.js         # Admission-related functionalities
+├── auth.css             # Styles for authentication pages
+├── auth.js              # Authentication logic
+├── config.js            # Configuration file (excluding secrets)
+├── contact.js           # Contact form functionality
+├── copyrightYear.js     # Handles dynamic copyright year
+├── index.html           # Main HTML file
+├── index.js             # JavaScript functionality
+├── login.html           # Login page
+├── signup.html          # Signup page
+├── style.css            # Main stylesheet
+```
 
-👤 Author
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-Mr. Keshab Das - Web Developer (2022)
+## 🎓 About T.D. Educare
 
-✨ Special Notes
+T.D. Educare is dedicated to providing quality education through a unique curriculum, a multicultural environment, and abundant learning opportunities. This website reflects the institution's commitment to student growth and development.
 
-Optimized for both desktop and mobile devices
+## 👤 Author
 
-Special offers for SC & ST students as mentioned in the admission section
+**Mr. Keshab Das** – Web Developer (2025)
 
-© 2022 T.D. Educare | All rights reserved.
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+## ✨ Special Notes
+
+- Optimized for both **desktop and mobile devices**
+- Special offers available for **SC & ST students**, as mentioned in the admission section
+
+© 2025 T.D. Educare | All Rights Reserved.
+
