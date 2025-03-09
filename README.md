@@ -139,5 +139,39 @@ T.D. Educare is dedicated to providing quality education through a unique curric
 - Optimized for both **desktop and mobile devices**
 - Special offers available for **SC & ST students**, as mentioned in the admission section
 
-© 2025 T.D. Educare | All Rights Reserved.
+**© 2025 T.D. Educare | All Rights Reserved.**
+
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+## ✨ Contributors
+
+All Thanks to our contributors 💙
+
+
+[![GitHub Contributors](https://contrib.rocks/image?repo=Keshab1113/T.D._Educare)](https://github.com/Keshab1113/T.D._Educare/graphs/contributors)
+
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+
+## Stargazers ❤️
+
+<div align='left'>
+
+[![Stargazers repo roster for @Keshab1113/T.D._Educare](https://reporoster.com/stars/Keshab1113/T.D._Educare)](https://github.com/Keshab1113/T.D._Educare/stargazers)
+
+</div>
+
+## Forkers ❤️
+
+[![Forkers repo roster for @Keshab1113/T.D._Educare](https://reporoster.com/forks/Keshab1113/T.D._Educare)](https://github.com/Keshab1113/T.D._Educare/network/members)
+
+
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+
+
+### Feel free to join our team and contribute to making T.D. Educare even better! 🚀
 
