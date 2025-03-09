@@ -565,7 +565,7 @@ section {
    margin-top: 1.5rem;
    font-size: 2rem;
    text-align: center;
-   color: var(--white);
+   color: black;
 }
 
 .teachers .slide .share {
@@ -952,7 +952,7 @@ section {
 .contact-sub-title {
    text-align: center;
    font-size: 15px;
-   color: #f6f0f8;
+   color: rgb(255, 68, 68);
    margin-bottom: 60px;
 }
 
@@ -975,7 +975,7 @@ section {
 .contact .contact-info-item h4 {
    font-size: 18px;
    font-weight: 700;
-   color: var(--text-black-700);
+   color: rgb(89, 0, 255);
    text-transform: capitalize;
    margin: 15px 0 5px;
 }
@@ -984,7 +984,8 @@ section {
    font-size: 16px;
    line-height: 25px;
    font-weight: 400;
-   color: white;
+   color: rgb(255, 68, 68);
+   font-weight: bolder;
 }
 
 
@@ -1360,7 +1361,7 @@ section {
 
 
 /* Color picker styling */
-.color-btn{
+.color-btn {
    padding: 5px;
    margin-left: 20px;
    border-radius: 8px;
